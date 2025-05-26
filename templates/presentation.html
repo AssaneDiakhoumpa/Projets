@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Présentation Température</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style_css.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>🌡️ Températures par Salle</h1>
+        <div id="content">
+            <div id="global-info" class="card"></div>
+            <div id="salle-table" class="card"></div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script_js.js') }}"></script>
+</body>
+</html>
